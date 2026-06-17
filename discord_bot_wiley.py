@@ -72,7 +72,7 @@ class ClanView(discord.ui.View):
     async def miau(self, interaction, button):
         await self.set_clan(interaction, "MIAU")
 
-    @discord.ui.button(label="666", style=discord.ButtonStyle.danger)
+    @discord.ui.button(label="666", style=discord.ButtonStyle.prtimary)
     async def sixsixsix(self, interaction, button):
         await self.set_clan(interaction, "666")
 
